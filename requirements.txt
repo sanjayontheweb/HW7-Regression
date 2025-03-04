@@ -3,3 +3,5 @@ numpy
 logreg
 utils
 pytest
+pandas
+scikit-learn
