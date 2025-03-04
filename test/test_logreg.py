@@ -73,5 +73,6 @@ def test_training():
 	assert not np.allclose(init_weights, model.W)
 	#assert loss history is being recorded
 	assert len(model.loss_hist_train) > 0
+	
 	#assert loss is decreasing
 	assert model.loss_hist_train[0] > model.loss_hist_train[-1]
